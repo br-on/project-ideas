@@ -1,7 +1,7 @@
 const root = document.documentElement;
-const olho = document.getElementById('bt-olho');
+const eye = document.getElementById('eyeball');
 const beam = document.getElementById('beam');
-const senhaInput = document.getElementById('senha');
+const passwordInput = document.getElementById('password');
 
 root.addEventListener('mousemove', (e) => {
   let rect = beam.getBoundingClientRect();
@@ -13,9 +13,9 @@ root.addEventListener('mousemove', (e) => {
   root.style.setProperty('--beamDegrees', `${degrees}deg`);
 });
 
-olho.addEventListener('click', e => {
+eye.addEventListener('click', e => {
   e.preventDefault();
-  document.body.classList.toggle('show-senha');
-  senhaInput.type = passwordInput.type === 'password' ? 'text' : 'password'
-  senhaInput.focus();
+  document.body.classList.toggle('show-password');
+  passwordInput.type = passwordInput.type === 'password' ? 'text' : 'password'
+  passwordInput.focus();
 });
