@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.monoton-regular {
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(48, 45, 45);
+    width: 100%;
+    border-bottom: solid 3px whitesmoke;
+}
+header h1 {
+    color: red;
+}
+main {
+    margin-top: 20px;
+    background-color: rgb(63, 63, 61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+}
+main ul {
+    list-style: none;
+    font-size: 2em;
+}
+main ul li:hover, a:hover {
+    color: rgb(245, 189, 34);
+    cursor: pointer;
+
+}
+main ul li::before {
+    content: "\25B6"; /* Código Unicode para triângulo preto apontando para a direita */
+    color: rgb(255, 255, 255); /* Cor do triângulo */
+    padding-right: 8px; /* Espaço entre o triângulo e o texto */
+    
+}
+main ul li:hover::before {
+    color: red;
+    
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    background-color: rgb(255, 0, 0);
+}
