@@ -34,7 +34,6 @@ header h1 {
 main {
     background-color: rgb(2, 77, 80);
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -43,6 +42,7 @@ main {
 main ul {
     list-style: none;
     font-size: 1.3em;
+    padding: 2px;
 }
 main ul li:hover, a:hover {
     color: rgb(245, 189, 34);
@@ -72,8 +72,4 @@ footer {
     bottom: 0;
     height: 50px;
     background-color: rgb(255, 0, 0);
-}
-
-li {
-    padding: 3px;
 }

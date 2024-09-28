@@ -32,9 +32,8 @@ header h1 {
     color: red;
 }
 main {
-    background-color: rgb(2, 77, 80);
+    background-color: rgba(7, 99, 102, 0.856);
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -72,8 +71,4 @@ footer {
     bottom: 0;
     height: 50px;
     background-color: rgb(255, 0, 0);
-}
-
-li {
-    padding: 3px;
 }
