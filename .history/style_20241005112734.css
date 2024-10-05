@@ -38,7 +38,6 @@ header h1 {
 }
 .pages {
     background-color: rgb(201, 224, 199);
-    align-items: flex-start;
 }
 main {
     flex: 1;
@@ -106,10 +105,9 @@ li {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-    gap: 20px 15px;
-    padding: 5px 5px;
+    gap: 5px 10px;
+    padding: 15px 5px;
     overflow-y: auto;
-    max-height: 100%;
     box-sizing: border-box;
 }
 
