@@ -114,10 +114,6 @@ li {
     box-sizing: border-box;
 }
 
-.poucos-filhos {
-    height: auto;
-}
-
 .grid-item-pages {
     border: solid 1px black;
     width: 100px;

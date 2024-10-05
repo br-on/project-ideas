@@ -39,7 +39,7 @@ header h1 {
 .pages {
     background-color: rgb(201, 224, 199);
     align-items: flex-start;
-    padding-bottom: 50px;
+    //padding-bottom: 50px;
 }
 main {
     flex: 1;
@@ -112,10 +112,6 @@ li {
     overflow-y: auto;
     height: 100%;
     box-sizing: border-box;
-}
-
-.poucos-filhos {
-    height: auto;
 }
 
 .grid-item-pages {
