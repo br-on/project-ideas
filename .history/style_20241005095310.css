@@ -128,11 +128,16 @@ li {
     background-color: purple;
 }
 
-.bt-voltar {
-    width: 150px;
+.bt-voltar {   
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
     height: 50px;
-    font-size: 1.25em;
-    background-color: wheat;
-    border: solid 2px white;
+    width: 70px;
 }
-  
+.bt-voltar::before {
+    content: "\2190"; /* Unicode para a seta para a esquerda */
+    margin-right: 8px;
+  }
+    

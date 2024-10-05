@@ -40,6 +40,7 @@ main {
     flex: 1;
     background-color: rgb(2, 77, 80);
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -128,11 +129,6 @@ li {
     background-color: purple;
 }
 
-.bt-voltar {
-    width: 150px;
-    height: 50px;
-    font-size: 1.25em;
-    background-color: wheat;
-    border: solid 2px white;
+.bt-voltar {   
+    height: 50%;
 }
-  
