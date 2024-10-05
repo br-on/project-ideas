@@ -39,7 +39,7 @@ header h1 {
 .pages {
     background-color: rgb(201, 224, 199);
     align-items: flex-start;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 main {
     flex: 1;
