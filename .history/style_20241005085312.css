@@ -7,24 +7,19 @@
 }
 .monoton-regular {
     font-family: "Monoton", sans-serif;
-    font-weight: 100;
+    font-weight: 400;
     font-style: normal;
-    font-size: 1.5rem;
 }
-
-html, body {
-    height: 100%;
-    font-size: 16px;
-}
-
 body {
     color: white;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(171, 28, 28);
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 header {
-    height: 150px;
+    height: 27vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -32,19 +27,19 @@ header {
     background-color: rgb(48, 45, 45);
     width: 100%;
     border-bottom: solid 3px whitesmoke;
+    padding-left: 25px;
 }
 header h1 {
     color: red;
 }
 main {
-    flex: 1;
+    height: 63vh;
     background-color: rgb(2, 77, 80);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     width: 100%;
-    overflow: hidden;
 }
 main ul {
     list-style: none;
@@ -70,11 +65,11 @@ a {
     text-decoration: none;
 }
 footer {
-    height: 60px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 50px;
     background-color: rgb(255, 0, 0);
 }
 
@@ -88,10 +83,7 @@ li {
     grid-template-rows: auto auto auto;
     grid-column: 50px;
     gap: 20px 50px;
-    padding: 15px 5px;
-    overflow-y: auto;
-    height: 100%;
-    box-sizing: border-box;
+    padding: 5px;
 }
 .grid-item {
     background-color: red;
